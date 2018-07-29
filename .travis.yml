@@ -1,0 +1,6 @@
+language: csharp
+solution: HelloWorldCore.sln
+mono: none
+dotnet: 2.1.202
+script:
+ - dotnet restore
